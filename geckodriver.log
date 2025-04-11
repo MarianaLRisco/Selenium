@@ -7491,8 +7491,12 @@ console.error: services.settings:
 _validateCollectionSignature@resource://services-settings/RemoteSettingsClient.sys.mjs:1022:13
 
 console.error: (new InvalidSignatureError("Invalid content signature (main/search-config-v2) using 'remote-settings.content-signature.mozilla.org-2025-05-11-18-14-01.chain'", "resource://services-settings/RemoteSettingsClient.sys.mjs", 165))
-1744343262219	geckodriver	INFO	Listening on 127.0.0.1:49339
-1744343265262	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--width=1920" "--height=1080" "--remote-de ... 0" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\RISCO\\AppData\\Local\\Temp\\rust_mozprofileVcjbqN"
+JavaScript warning: https://abs.twimg.com/responsive-web/client-web/main.62271a5a.js, line 1: Script terminated by timeout at:
+840590/c/this._updateSessionStorage@https://abs.twimg.com/responsive-web/client-web/main.62271a5a.js:1:4587111
+
+1744344440250	Marionette	INFO	Stopped listening on port 64267
+Dynamically enable window occlusion 1
+eVcjbqN"
 console.warn: services.settings: Ignoring preference override of remote settings server
 console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
 Dynamically enable window occlusion 0
@@ -7855,3 +7859,20 @@ console.error: services.settings:
 _validateCollectionSignature@resource://services-settings/RemoteSettingsClient.sys.mjs:1022:13
 
 console.error: (new InvalidSignatureError("Invalid content signature (main/search-config-v2) using 'remote-settings.content-signature.mozilla.org-2025-05-11-18-14-01.chain'", "resource://services-settings/RemoteSettingsClient.sys.mjs", 165))
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v4i4YQ4/yo/l/rt/hJBGdfnE3xm.js, line 37: Script terminated by timeout at:
+a@https://static.xx.fbcdn.net/rsrc.php/v4i4YQ4/yo/l/rt/hJBGdfnE3xm.js:37:272
+o@https://static.xx.fbcdn.net/rsrc.php/v4i4YQ4/yo/l/rt/hJBGdfnE3xm.js:38:1861
+Kf@https://static.xx.fbcdn.net/rsrc.php/v4i7F84/yY/l/rt/AqbwnUyz_JlPbD1EA1X1rkz33j97l-WlpcL5EDq26jmwxQ7_USqvB6DteeCetKsxq__Yt2gLo8Ic51MvYtGWDUyDCC7oht9X2RyOkDqec0J4nV3Jkl0pID0xjNuDULux1Y3Opi4AUP4DSwvvpb3UvkVlV9S_NDm1Vcurcwv553_i_gBL.js:729:47875
+Fh@https://static.xx.fbcdn.net/rsrc.php/v4i7F84/yY/l/rt/AqbwnUyz_JlPbD1EA1X1rkz33j97l-WlpcL5EDq26jmwxQ7_USqvB6DteeCetKsxq__Yt2gLo8Ic51MvYtGWDUyDCC7oht9X2RyOkDqec0J4nV3Jkl0pID0xjNuDULux1Y3Opi4AUP4DSwvvpb3UvkVlV9S_NDm1Vcurcwv553_i_gBL.js:729:71765
+Yh@https://static.xx.fbcdn.net/rsrc.php/v4i7F84/yY/l/rt/AqbwnUyz_JlPbD1EA1X1rkz33j97l-WlpcL5EDq26jmwxQ7_USqvB6DteeCetKsxq__Yt2gLo8Ic51MvYtGWDUyDCC7oht9X2RyOkDqec0J4nV3Jkl0pID0xjNuDULux1Y3Opi4AUP4DSwvvpb3UvkVlV9S_NDm1Vcurcwv553_i_gBL.js:729:83920
+Zk@https://static.xx.fbcdn.net/rsrc.php/v4i7F84/yY/l/rt/AqbwnUyz_JlPbD1EA1X1rkz33j97l-WlpcL5EDq26jmwxQ7_USqvB6DteeCetKsxq__Yt2gLo8Ic51MvYtGWDUyDCC7oht9X2RyOkDqec0J4nV3Jkl0pID0xjNuDULux1Y3Opi4AUP4DSwvvpb3UvkVlV9S_NDm1Vcurcwv553_i_gBL.js:729:135931
+Wk@https://static.xx.fbcdn.net/rsrc.php/v4i7F84/yY/l/rt/AqbwnUyz_JlPbD1EA1X1rkz33j97l-WlpcL5EDq26jmwxQ7_USqvB6DteeCetKsxq__Yt2gLo8Ic51MvYtGWDUyDCC7oht9X2RyOkDqec0J4nV3Jkl0pID0xjNuDULux1Y3Opi4AUP4DSwvvpb3UvkVlV9S_NDm1Vcurcwv553_i_gBL.js:729:135027
+Vk@https://static.xx.fbcdn.net/rsrc.php/v4i7F84/yY/l/rt/AqbwnUyz_JlPbD1EA1X1rkz33j97l-WlpcL5EDq26jmwxQ7_USqvB6DteeCetKsxq__Yt2gLo8Ic51MvYtGWDUyDCC7oht9X2RyOkDqec0J4nV3Jkl0pID0xjNuDULux1Y3Opi4AUP4DSwvvpb3UvkVlV9S_NDm1Vcurcwv553_i_gBL.js:729:134864
+Ik@https://static.xx.fbcdn.net/rsrc.php/v4i7F84/yY/l/rt/AqbwnUyz_JlPbD1EA1X1rkz33j97l-WlpcL5EDq26jmwxQ7_USqvB6DteeCetKsxq__Yt2gLo8Ic51MvYtGWDUyDCC7oht9X2RyOkDqec0J4nV3Jkl0pID0xjNuDULux1Y3Opi4AUP4DSwvvpb3UvkVlV9S_NDm1Vcurcwv553_i_gBL.js:729:131067
+ie@https://static.xx.fbcdn.net/rsrc.php/v4i7F84/yY/l/rt/AqbwnUyz_JlPbD1EA1X1rkz33j97l-WlpcL5EDq26jmwxQ7_USqvB6DteeCetKsxq__Yt2gLo8Ic51MvYtGWDUyDCC7oht9X2RyOkDqec0J4nV3Jkl0pID0xjNuDULux1Y3Opi4AUP4DSwvvpb3UvkVlV9S_NDm1Vcurcwv553_i_gBL.js:729:33596
+applyWithGuard@https://static.xx.fbcdn.net/rsrc.php/v4/yp/r/Hj1Zp_7yjpG.js:71:10621
+c@https://static.xx.fbcdn.net/rsrc.php/v4/yp/r/Hj1Zp_7yjpG.js:71:11355
+I@https://static.xx.fbcdn.net/rsrc.php/v4/yp/r/Hj1Zp_7yjpG.js:231:1889
+
+1744344439521	Marionette	INFO	Stopped listening on port 49351
+Dynamically enable window occlusion 1
