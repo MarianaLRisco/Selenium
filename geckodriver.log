@@ -11640,3 +11640,373 @@ _validateCollectionSignature@resource://services-settings/RemoteSettingsClient.s
 console.error: (new InvalidSignatureError("Invalid content signature (blocklists/addons-bloomfilters) using 'remote-settings.content-signature.mozilla.org-2025-05-11-18-14-01.chain'", "resource://services-settings/RemoteSettingsClient.sys.mjs", 165))
 console.error: (new TypeError("state.hideToggleDeferredTask is null", "resource://gre/actors/PictureInPictureChild.sys.mjs", 1449))
 JavaScript error: chrome://global/content/elements/browser-custom-element.js, line 1677: Error: permitUnload is already running for this tab.
+1744516317373	geckodriver	INFO	Listening on 127.0.0.1:63597
+1744516320432	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--start-maximized" "--remote-debugging-por ... 8" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\RISCO\\AppData\\Local\\Temp\\rust_mozprofileJpOPl0"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1744516320924	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-start-maximized"
+1744516321078	Marionette	INFO	Listening on port 63607
+WebDriver BiDi listening on ws://127.0.0.1:63598
+Read port: 63607
+1744516321283	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: services.settings: 
+  main/query-stripping Signature failed  InvalidSignatureError: Invalid content signature (main/query-stripping) using 'remote-settings.content-signature.mozilla.org-2025-05-11-18-14-01.chain'
+DevTools listening on ws://127.0.0.1:63598/devtools/browser/aa52495e-d0d3-4a01-bc9b-4d24b2f0e833
+console.error: services.settings: 
+  main/query-stripping local data was corrupted
+console.warn: services.settings: main/query-stripping Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/fingerprinting-protection-overrides Signature failed  InvalidSignatureError: Invalid content signature (main/fingerprinting-protection-overrides) using 'remote-settings.content-signature.mozilla.org-2025-05-11-18-14-01.chain'
+console.error: services.settings: 
+  main/fingerprinting-protection-overrides local data was corrupted
+console.warn: services.settings: main/fingerprinting-protection-overrides Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/query-stripping Signature failed again InvalidSignatureError: Invalid content signature (main/query-stripping) using 'remote-settings.content-signature.mozilla.org-2025-05-11-18-14-01.chain'
+console.error: (new InvalidSignatureError("Invalid content signature (main/query-stripping) using 'remote-settings.content-signature.mozilla.org-2025-05-11-18-14-01.chain'", "resource://services-settings/RemoteSettingsClient.sys.mjs", 165))
+console.error: services.settings: 
+  main/fingerprinting-protection-overrides Signature failed again InvalidSignatureError: Invalid content signature (main/fingerprinting-protection-overrides) using 'remote-settings.content-signature.mozilla.org-2025-05-11-18-14-01.chain'
+console.error: (new InvalidSignatureError("Invalid content signature (main/fingerprinting-protection-overrides) using 'remote-settings.content-signature.mozilla.org-2025-05-11-18-14-01.chain'", "resource://services-settings/RemoteSettingsClient.sys.mjs", 165))
+console.error: services.settings: 
+  main/partitioning-exempt-urls Signature failed  InvalidSignatureError: Invalid content signature (main/partitioning-exempt-urls) using 'remote-settings.content-signature.mozilla.org-2025-05-31-18-21-48.chain'
+console.error: services.settings: 
+  main/partitioning-exempt-urls local data was corrupted
+console.warn: services.settings: main/partitioning-exempt-urls Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/partitioning-exempt-urls Signature failed again InvalidSignatureError: Invalid content signature (main/partitioning-exempt-urls) using 'remote-settings.content-signature.mozilla.org-2025-05-31-18-21-48.chain'
+console.error: (new InvalidSignatureError("Invalid content signature (main/partitioning-exempt-urls) using 'remote-settings.content-signature.mozilla.org-2025-05-31-18-21-48.chain'", "resource://services-settings/RemoteSettingsClient.sys.mjs", 165))
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v4ihVQ4/yM/l/es_ES~es_LA/F0A_DxAvhUT.js, line 36: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v4iEHC4/y_/l/rt/OU9qOb25OASebPGwKpaZY6jWk1ZTrcKtxtQsXL-I-q1O8Rkm48AFfbOej4iH3H8ROzTeM-Es5zZbvYcxm6drqQnBXoxmm-WZAnyN4v6zBQSZwGYannlW3WtOBSL3u0Le5WbWJKZvbALqdwhRLJnmkyFdu36DSa8NI7WlBaCkAxl4CCdosWrGhbtD53TaMhrzLlaEAqKvNozPcv0rqH6BWvikK57fSLYxPV4qdoDnflo4f0r9x49_XFpMk-6j3C4qpw6L1xqiCWmOWOaDFJKMrAYt8XyqAt-lwzBlyYCAKa41O7nkERWZ8YVzPqbJOsCF37hf17z50O.js, line 1130: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1744516350937	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.error: services.settings: 
+  blocklists/addons-bloomfilters Signature failed  InvalidSignatureError: Invalid content signature (blocklists/addons-bloomfilters) using 'remote-settings.content-signature.mozilla.org-2025-05-11-18-14-01.chain'
+console.error: services.settings: 
+  blocklists/addons-bloomfilters local data was corrupted
+console.warn: services.settings: blocklists/addons-bloomfilters Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  blocklists/addons-bloomfilters Signature failed again InvalidSignatureError: Invalid content signature (blocklists/addons-bloomfilters) using 'remote-settings.content-signature.mozilla.org-2025-05-11-18-14-01.chain'
+console.error: services.settings: 
+  Message: InvalidSignatureError: Invalid content signature (blocklists/addons-bloomfilters) using 'remote-settings.content-signature.mozilla.org-2025-05-11-18-14-01.chain'
+  Stack:
+    InvalidSignatureError@resource://services-settings/RemoteSettingsClient.sys.mjs:165:5
+_validateCollectionSignature@resource://services-settings/RemoteSettingsClient.sys.mjs:1022:13
+
+console.error: services.settings: 
+  main/search-config-v2 Signature failed  InvalidSignatureError: Invalid content signature (main/search-config-v2) using 'remote-settings.content-signature.mozilla.org-2025-05-11-18-14-01.chain'
+console.error: services.settings: 
+  main/search-config-v2 local data was corrupted
+console.warn: services.settings: main/search-config-v2 Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/search-config-v2 Signature failed again InvalidSignatureError: Invalid content signature (main/search-config-v2) using 'remote-settings.content-signature.mozilla.org-2025-05-11-18-14-01.chain'
+console.error: services.settings: 
+  Message: InvalidSignatureError: Invalid content signature (main/search-config-v2) using 'remote-settings.content-signature.mozilla.org-2025-05-11-18-14-01.chain'
+  Stack:
+    InvalidSignatureError@resource://services-settings/RemoteSettingsClient.sys.mjs:165:5
+_validateCollectionSignature@resource://services-settings/RemoteSettingsClient.sys.mjs:1022:13
+
+console.error: services.settings: 
+  main/top-sites Signature failed  InvalidSignatureError: Invalid content signature (main/top-sites) using 'remote-settings.content-signature.mozilla.org-2025-05-11-18-14-01.chain'
+console.error: services.settings: 
+  main/top-sites local data was corrupted
+console.warn: services.settings: main/top-sites Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/top-sites Signature failed again InvalidSignatureError: Invalid content signature (main/top-sites) using 'remote-settings.content-signature.mozilla.org-2025-05-11-18-14-01.chain'
+console.error: services.settings: 
+  Message: InvalidSignatureError: Invalid content signature (main/top-sites) using 'remote-settings.content-signature.mozilla.org-2025-05-11-18-14-01.chain'
+  Stack:
+    InvalidSignatureError@resource://services-settings/RemoteSettingsClient.sys.mjs:165:5
+_validateCollectionSignature@resource://services-settings/RemoteSettingsClient.sys.mjs:1022:13
+
+console.error: services.settings: 
+  main/search-config-icons Signature failed  InvalidSignatureError: Invalid content signature (main/search-config-icons) using 'remote-settings.content-signature.mozilla.org-2025-05-11-18-14-01.chain'
+console.error: services.settings: 
+  main/search-config-icons local data was corrupted
+console.warn: services.settings: main/search-config-icons Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/search-config-icons Signature failed again InvalidSignatureError: Invalid content signature (main/search-config-icons) using 'remote-settings.content-signature.mozilla.org-2025-05-11-18-14-01.chain'
+console.error: services.settings: 
+  Message: InvalidSignatureError: Invalid content signature (main/search-config-icons) using 'remote-settings.content-signature.mozilla.org-2025-05-11-18-14-01.chain'
+  Stack:
+    InvalidSignatureError@resource://services-settings/RemoteSettingsClient.sys.mjs:165:5
+_validateCollectionSignature@resource://services-settings/RemoteSettingsClient.sys.mjs:1022:13
+
+console.error: services.settings: 
+  main/devtools-compatibility-browsers Signature failed  InvalidSignatureError: Invalid content signature (main/devtools-compatibility-browsers) using 'remote-settings.content-signature.mozilla.org-2025-05-11-18-14-01.chain'
+console.error: services.settings: 
+  main/devtools-compatibility-browsers local data was corrupted
+console.warn: services.settings: main/devtools-compatibility-browsers Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/devtools-compatibility-browsers Signature failed again InvalidSignatureError: Invalid content signature (main/devtools-compatibility-browsers) using 'remote-settings.content-signature.mozilla.org-2025-05-11-18-14-01.chain'
+console.error: services.settings: 
+  Message: InvalidSignatureError: Invalid content signature (main/devtools-compatibility-browsers) using 'remote-settings.content-signature.mozilla.org-2025-05-11-18-14-01.chain'
+  Stack:
+    InvalidSignatureError@resource://services-settings/RemoteSettingsClient.sys.mjs:165:5
+_validateCollectionSignature@resource://services-settings/RemoteSettingsClient.sys.mjs:1022:13
+
+console.error: services.settings: 
+  main/password-rules Signature failed  InvalidSignatureError: Invalid content signature (main/password-rules) using 'remote-settings.content-signature.mozilla.org-2025-05-11-18-14-01.chain'
+console.error: services.settings: 
+  main/password-rules local data was corrupted
+console.warn: services.settings: main/password-rules Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/password-rules Signature failed again InvalidSignatureError: Invalid content signature (main/password-rules) using 'remote-settings.content-signature.mozilla.org-2025-05-11-18-14-01.chain'
+console.error: services.settings: 
+  Message: InvalidSignatureError: Invalid content signature (main/password-rules) using 'remote-settings.content-signature.mozilla.org-2025-05-11-18-14-01.chain'
+  Stack:
+    InvalidSignatureError@resource://services-settings/RemoteSettingsClient.sys.mjs:165:5
+_validateCollectionSignature@resource://services-settings/RemoteSettingsClient.sys.mjs:1022:13
+
+console.error: services.settings: 
+  main/translations-models Signature failed  InvalidSignatureError: Invalid content signature (main/translations-models) using 'remote-settings.content-signature.mozilla.org-2025-05-11-18-14-01.chain'
+console.error: services.settings: 
+  main/translations-models local data was corrupted
+console.warn: services.settings: main/translations-models Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/translations-models Signature failed again InvalidSignatureError: Invalid content signature (main/translations-models) using 'remote-settings.content-signature.mozilla.org-2025-05-11-18-14-01.chain'
+console.error: services.settings: 
+  Message: InvalidSignatureError: Invalid content signature (main/translations-models) using 'remote-settings.content-signature.mozilla.org-2025-05-11-18-14-01.chain'
+  Stack:
+    InvalidSignatureError@resource://services-settings/RemoteSettingsClient.sys.mjs:165:5
+_validateCollectionSignature@resource://services-settings/RemoteSettingsClient.sys.mjs:1022:13
+
+console.error: services.settings: 
+  main/search-telemetry-v2 Signature failed  InvalidSignatureError: Invalid content signature (main/search-telemetry-v2) using 'remote-settings.content-signature.mozilla.org-2025-05-11-18-14-01.chain'
+console.error: services.settings: 
+  main/search-telemetry-v2 local data was corrupted
+console.warn: services.settings: main/search-telemetry-v2 Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/search-telemetry-v2 Signature failed again InvalidSignatureError: Invalid content signature (main/search-telemetry-v2) using 'remote-settings.content-signature.mozilla.org-2025-05-11-18-14-01.chain'
+console.error: services.settings: 
+  Message: InvalidSignatureError: Invalid content signature (main/search-telemetry-v2) using 'remote-settings.content-signature.mozilla.org-2025-05-11-18-14-01.chain'
+  Stack:
+    InvalidSignatureError@resource://services-settings/RemoteSettingsClient.sys.mjs:165:5
+_validateCollectionSignature@resource://services-settings/RemoteSettingsClient.sys.mjs:1022:13
+
+console.error: services.settings: 
+  main/url-classifier-skip-urls Signature failed  InvalidSignatureError: Invalid content signature (main/url-classifier-skip-urls) using 'remote-settings.content-signature.mozilla.org-2025-05-11-18-14-01.chain'
+console.error: services.settings: 
+  main/url-classifier-skip-urls local data was corrupted
+console.warn: services.settings: main/url-classifier-skip-urls Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/url-classifier-skip-urls Signature failed again InvalidSignatureError: Invalid content signature (main/url-classifier-skip-urls) using 'remote-settings.content-signature.mozilla.org-2025-05-11-18-14-01.chain'
+console.error: services.settings: 
+  Message: InvalidSignatureError: Invalid content signature (main/url-classifier-skip-urls) using 'remote-settings.content-signature.mozilla.org-2025-05-11-18-14-01.chain'
+  Stack:
+    InvalidSignatureError@resource://services-settings/RemoteSettingsClient.sys.mjs:165:5
+_validateCollectionSignature@resource://services-settings/RemoteSettingsClient.sys.mjs:1022:13
+
+console.error: services.settings: 
+  main/websites-with-shared-credential-backends Signature failed  InvalidSignatureError: Invalid content signature (main/websites-with-shared-credential-backends) using 'remote-settings.content-signature.mozilla.org-2025-05-11-18-14-01.chain'
+console.error: services.settings: 
+  main/websites-with-shared-credential-backends local data was corrupted
+console.warn: services.settings: main/websites-with-shared-credential-backends Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/websites-with-shared-credential-backends Signature failed again InvalidSignatureError: Invalid content signature (main/websites-with-shared-credential-backends) using 'remote-settings.content-signature.mozilla.org-2025-05-11-18-14-01.chain'
+console.error: services.settings: 
+  Message: InvalidSignatureError: Invalid content signature (main/websites-with-shared-credential-backends) using 'remote-settings.content-signature.mozilla.org-2025-05-11-18-14-01.chain'
+  Stack:
+    InvalidSignatureError@resource://services-settings/RemoteSettingsClient.sys.mjs:165:5
+_validateCollectionSignature@resource://services-settings/RemoteSettingsClient.sys.mjs:1022:13
+
+console.error: services.settings: 
+  main/partitioning-exempt-urls Signature failed  InvalidSignatureError: Invalid content signature (main/partitioning-exempt-urls) using 'remote-settings.content-signature.mozilla.org-2025-05-31-18-21-48.chain'
+console.error: services.settings: 
+  main/partitioning-exempt-urls local data was corrupted
+console.warn: services.settings: main/partitioning-exempt-urls Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/partitioning-exempt-urls Signature failed again InvalidSignatureError: Invalid content signature (main/partitioning-exempt-urls) using 'remote-settings.content-signature.mozilla.org-2025-05-31-18-21-48.chain'
+console.error: services.settings: 
+  Message: InvalidSignatureError: Invalid content signature (main/partitioning-exempt-urls) using 'remote-settings.content-signature.mozilla.org-2025-05-31-18-21-48.chain'
+  Stack:
+    InvalidSignatureError@resource://services-settings/RemoteSettingsClient.sys.mjs:165:5
+_validateCollectionSignature@resource://services-settings/RemoteSettingsClient.sys.mjs:1022:13
+
+console.error: services.settings: 
+  main/normandy-recipes-capabilities Signature failed  InvalidSignatureError: Invalid content signature (main/normandy-recipes-capabilities) using 'remote-settings.content-signature.mozilla.org-2025-05-11-18-14-01.chain'
+console.error: services.settings: 
+  main/normandy-recipes-capabilities local data was corrupted
+console.warn: services.settings: main/normandy-recipes-capabilities Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/normandy-recipes-capabilities Signature failed again InvalidSignatureError: Invalid content signature (main/normandy-recipes-capabilities) using 'remote-settings.content-signature.mozilla.org-2025-05-11-18-14-01.chain'
+console.error: services.settings: 
+  Message: InvalidSignatureError: Invalid content signature (main/normandy-recipes-capabilities) using 'remote-settings.content-signature.mozilla.org-2025-05-11-18-14-01.chain'
+  Stack:
+    InvalidSignatureError@resource://services-settings/RemoteSettingsClient.sys.mjs:165:5
+_validateCollectionSignature@resource://services-settings/RemoteSettingsClient.sys.mjs:1022:13
+
+console.error: services.settings: 
+  main/translations-wasm Signature failed  InvalidSignatureError: Invalid content signature (main/translations-wasm) using 'remote-settings.content-signature.mozilla.org-2025-05-11-18-14-01.chain'
+console.error: services.settings: 
+  main/translations-wasm local data was corrupted
+console.warn: services.settings: main/translations-wasm Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/translations-wasm Signature failed again InvalidSignatureError: Invalid content signature (main/translations-wasm) using 'remote-settings.content-signature.mozilla.org-2025-05-11-18-14-01.chain'
+console.error: services.settings: 
+  Message: InvalidSignatureError: Invalid content signature (main/translations-wasm) using 'remote-settings.content-signature.mozilla.org-2025-05-11-18-14-01.chain'
+  Stack:
+    InvalidSignatureError@resource://services-settings/RemoteSettingsClient.sys.mjs:165:5
+_validateCollectionSignature@resource://services-settings/RemoteSettingsClient.sys.mjs:1022:13
+
+console.error: services.settings: 
+  blocklists/gfx Signature failed  InvalidSignatureError: Invalid content signature (blocklists/gfx) using 'remote-settings.content-signature.mozilla.org-2025-05-11-18-14-01.chain'
+console.error: services.settings: 
+  blocklists/gfx local data was corrupted
+console.warn: services.settings: blocklists/gfx Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  blocklists/gfx Signature failed again InvalidSignatureError: Invalid content signature (blocklists/gfx) using 'remote-settings.content-signature.mozilla.org-2025-05-11-18-14-01.chain'
+console.error: services.settings: 
+  Message: InvalidSignatureError: Invalid content signature (blocklists/gfx) using 'remote-settings.content-signature.mozilla.org-2025-05-11-18-14-01.chain'
+  Stack:
+    InvalidSignatureError@resource://services-settings/RemoteSettingsClient.sys.mjs:165:5
+_validateCollectionSignature@resource://services-settings/RemoteSettingsClient.sys.mjs:1022:13
+
+console.error: services.settings: 
+  main/cookie-banner-rules-list Signature failed  InvalidSignatureError: Invalid content signature (main/cookie-banner-rules-list) using 'remote-settings.content-signature.mozilla.org-2025-05-11-18-14-01.chain'
+console.error: services.settings: 
+  main/cookie-banner-rules-list local data was corrupted
+console.warn: services.settings: main/cookie-banner-rules-list Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/cookie-banner-rules-list Signature failed again InvalidSignatureError: Invalid content signature (main/cookie-banner-rules-list) using 'remote-settings.content-signature.mozilla.org-2025-05-11-18-14-01.chain'
+console.error: services.settings: 
+  Message: InvalidSignatureError: Invalid content signature (main/cookie-banner-rules-list) using 'remote-settings.content-signature.mozilla.org-2025-05-11-18-14-01.chain'
+  Stack:
+    InvalidSignatureError@resource://services-settings/RemoteSettingsClient.sys.mjs:165:5
+_validateCollectionSignature@resource://services-settings/RemoteSettingsClient.sys.mjs:1022:13
+
+console.error: services.settings: 
+  main/search-default-override-allowlist Signature failed  InvalidSignatureError: Invalid content signature (main/search-default-override-allowlist) using 'remote-settings.content-signature.mozilla.org-2025-05-11-18-14-01.chain'
+console.error: services.settings: 
+  main/search-default-override-allowlist local data was corrupted
+console.warn: services.settings: main/search-default-override-allowlist Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/search-default-override-allowlist Signature failed again InvalidSignatureError: Invalid content signature (main/search-default-override-allowlist) using 'remote-settings.content-signature.mozilla.org-2025-05-11-18-14-01.chain'
+console.error: services.settings: 
+  Message: InvalidSignatureError: Invalid content signature (main/search-default-override-allowlist) using 'remote-settings.content-signature.mozilla.org-2025-05-11-18-14-01.chain'
+  Stack:
+    InvalidSignatureError@resource://services-settings/RemoteSettingsClient.sys.mjs:165:5
+_validateCollectionSignature@resource://services-settings/RemoteSettingsClient.sys.mjs:1022:13
+
+console.error: services.settings: 
+  main/fingerprinting-protection-overrides Signature failed  InvalidSignatureError: Invalid content signature (main/fingerprinting-protection-overrides) using 'remote-settings.content-signature.mozilla.org-2025-05-11-18-14-01.chain'
+console.error: services.settings: 
+  main/fingerprinting-protection-overrides local data was corrupted
+console.warn: services.settings: main/fingerprinting-protection-overrides Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/fingerprinting-protection-overrides Signature failed again InvalidSignatureError: Invalid content signature (main/fingerprinting-protection-overrides) using 'remote-settings.content-signature.mozilla.org-2025-05-11-18-14-01.chain'
+console.error: services.settings: 
+  Message: InvalidSignatureError: Invalid content signature (main/fingerprinting-protection-overrides) using 'remote-settings.content-signature.mozilla.org-2025-05-11-18-14-01.chain'
+  Stack:
+    InvalidSignatureError@resource://services-settings/RemoteSettingsClient.sys.mjs:165:5
+_validateCollectionSignature@resource://services-settings/RemoteSettingsClient.sys.mjs:1022:13
+
+console.warn: services.settings: main/search-config Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/search-config Signature failed again InvalidSignatureError: Invalid content signature (main/search-config) using 'remote-settings.content-signature.mozilla.org-2025-05-11-18-14-01.chain'
+console.error: services.settings: 
+  Message: InvalidSignatureError: Invalid content signature (main/search-config) using 'remote-settings.content-signature.mozilla.org-2025-05-11-18-14-01.chain'
+  Stack:
+    InvalidSignatureError@resource://services-settings/RemoteSettingsClient.sys.mjs:165:5
+_validateCollectionSignature@resource://services-settings/RemoteSettingsClient.sys.mjs:1022:13
+
+console.warn: services.settings: main/search-config-overrides Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/search-config-overrides Signature failed again InvalidSignatureError: Invalid content signature (main/search-config-overrides) using 'remote-settings.content-signature.mozilla.org-2025-05-11-18-14-01.chain'
+console.error: services.settings: 
+  Message: InvalidSignatureError: Invalid content signature (main/search-config-overrides) using 'remote-settings.content-signature.mozilla.org-2025-05-11-18-14-01.chain'
+  Stack:
+    InvalidSignatureError@resource://services-settings/RemoteSettingsClient.sys.mjs:165:5
+_validateCollectionSignature@resource://services-settings/RemoteSettingsClient.sys.mjs:1022:13
+
+console.error: services.settings: 
+  main/query-stripping Signature failed  InvalidSignatureError: Invalid content signature (main/query-stripping) using 'remote-settings.content-signature.mozilla.org-2025-05-11-18-14-01.chain'
+console.error: services.settings: 
+  main/query-stripping local data was corrupted
+console.warn: services.settings: main/query-stripping Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/query-stripping Signature failed again InvalidSignatureError: Invalid content signature (main/query-stripping) using 'remote-settings.content-signature.mozilla.org-2025-05-11-18-14-01.chain'
+console.error: services.settings: 
+  Message: InvalidSignatureError: Invalid content signature (main/query-stripping) using 'remote-settings.content-signature.mozilla.org-2025-05-11-18-14-01.chain'
+  Stack:
+    InvalidSignatureError@resource://services-settings/RemoteSettingsClient.sys.mjs:165:5
+_validateCollectionSignature@resource://services-settings/RemoteSettingsClient.sys.mjs:1022:13
+
+console.error: services.settings: 
+  main/addons-manager-settings Signature failed  InvalidSignatureError: Invalid content signature (main/addons-manager-settings) using 'remote-settings.content-signature.mozilla.org-2025-05-11-18-14-01.chain'
+console.error: services.settings: 
+  main/addons-manager-settings local data was corrupted
+console.warn: services.settings: main/addons-manager-settings Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/addons-manager-settings Signature failed again InvalidSignatureError: Invalid content signature (main/addons-manager-settings) using 'remote-settings.content-signature.mozilla.org-2025-05-11-18-14-01.chain'
+console.error: services.settings: 
+  Message: InvalidSignatureError: Invalid content signature (main/addons-manager-settings) using 'remote-settings.content-signature.mozilla.org-2025-05-11-18-14-01.chain'
+  Stack:
+    InvalidSignatureError@resource://services-settings/RemoteSettingsClient.sys.mjs:165:5
+_validateCollectionSignature@resource://services-settings/RemoteSettingsClient.sys.mjs:1022:13
+
+console.error: services.settings: 
+  main/doh-config Signature failed  InvalidSignatureError: Invalid content signature (main/doh-config) using 'remote-settings.content-signature.mozilla.org-2025-05-11-18-14-01.chain'
+console.error: services.settings: 
+  main/doh-config local data was corrupted
+console.warn: services.settings: main/doh-config Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/doh-config Signature failed again InvalidSignatureError: Invalid content signature (main/doh-config) using 'remote-settings.content-signature.mozilla.org-2025-05-11-18-14-01.chain'
+console.error: services.settings: 
+  Message: InvalidSignatureError: Invalid content signature (main/doh-config) using 'remote-settings.content-signature.mozilla.org-2025-05-11-18-14-01.chain'
+  Stack:
+    InvalidSignatureError@resource://services-settings/RemoteSettingsClient.sys.mjs:165:5
+_validateCollectionSignature@resource://services-settings/RemoteSettingsClient.sys.mjs:1022:13
+
+console.error: services.settings: 
+  main/doh-providers Signature failed  InvalidSignatureError: Invalid content signature (main/doh-providers) using 'remote-settings.content-signature.mozilla.org-2025-05-11-18-14-01.chain'
+console.error: services.settings: 
+  main/doh-providers local data was corrupted
+console.warn: services.settings: main/doh-providers Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/doh-providers Signature failed again InvalidSignatureError: Invalid content signature (main/doh-providers) using 'remote-settings.content-signature.mozilla.org-2025-05-11-18-14-01.chain'
+console.error: services.settings: 
+  Message: InvalidSignatureError: Invalid content signature (main/doh-providers) using 'remote-settings.content-signature.mozilla.org-2025-05-11-18-14-01.chain'
+  Stack:
+    InvalidSignatureError@resource://services-settings/RemoteSettingsClient.sys.mjs:165:5
+_validateCollectionSignature@resource://services-settings/RemoteSettingsClient.sys.mjs:1022:13
+
+console.error: services.settings: 
+  main/pioneer-study-addons-v1 Signature failed  InvalidSignatureError: Invalid content signature (main/pioneer-study-addons-v1) using 'remote-settings.content-signature.mozilla.org-2025-05-11-18-14-01.chain'
+console.error: services.settings: 
+  main/pioneer-study-addons-v1 local data was corrupted
+console.warn: services.settings: main/pioneer-study-addons-v1 Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/pioneer-study-addons-v1 Signature failed again InvalidSignatureError: Invalid content signature (main/pioneer-study-addons-v1) using 'remote-settings.content-signature.mozilla.org-2025-05-11-18-14-01.chain'
+console.error: services.settings: 
+  Message: InvalidSignatureError: Invalid content signature (main/pioneer-study-addons-v1) using 'remote-settings.content-signature.mozilla.org-2025-05-11-18-14-01.chain'
+  Stack:
+    InvalidSignatureError@resource://services-settings/RemoteSettingsClient.sys.mjs:165:5
+_validateCollectionSignature@resource://services-settings/RemoteSettingsClient.sys.mjs:1022:13
+
+console.warn: services.settings: main/hijack-blocklists Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/hijack-blocklists Signature failed again InvalidSignatureError: Invalid content signature (main/hijack-blocklists) using 'remote-settings.content-signature.mozilla.org-2025-05-11-18-14-01.chain'
+console.error: services.settings: 
+  Message: InvalidSignatureError: Invalid content signature (main/hijack-blocklists) using 'remote-settings.content-signature.mozilla.org-2025-05-11-18-14-01.chain'
+  Stack:
+    InvalidSignatureError@resource://services-settings/RemoteSettingsClient.sys.mjs:165:5
+_validateCollectionSignature@resource://services-settings/RemoteSettingsClient.sys.mjs:1022:13
+
+console.warn: services.settings: main/anti-tracking-url-decoration Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/anti-tracking-url-decoration Signature failed again InvalidSignatureError: Invalid content signature (main/anti-tracking-url-decoration) using 'remote-settings.content-signature.mozilla.org-2025-05-11-18-14-01.chain'
+console.error: services.settings: 
+  Message: InvalidSignatureError: Invalid content signature (main/anti-tracking-url-decoration) using 'remote-settings.content-signature.mozilla.org-2025-05-11-18-14-01.chain'
+  Stack:
+    InvalidSignatureError@resource://services-settings/RemoteSettingsClient.sys.mjs:165:5
+_validateCollectionSignature@resource://services-settings/RemoteSettingsClient.sys.mjs:1022:13
+
+console.error: (new InvalidSignatureError("Invalid content signature (blocklists/addons-bloomfilters) using 'remote-settings.content-signature.mozilla.org-2025-05-11-18-14-01.chain'", "resource://services-settings/RemoteSettingsClient.sys.mjs", 165))
+JavaScript error: , line 0: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: , line 0: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: , line 0: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: , line 0: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: , line 0: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+console.error: (new TypeError("state.hideToggleDeferredTask is null", "resource://gre/actors/PictureInPictureChild.sys.mjs", 1449))
+JavaScript error: resource://gre/actors/PictureInPictureChild.sys.mjs, line 1449: TypeError: state.hideToggleDeferredTask is null
