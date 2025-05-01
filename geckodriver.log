@@ -18648,3 +18648,4 @@ JavaScript warning: , line 0: WebGL warning: texImage: Alpha-premult and y-flip 
 JavaScript warning: , line 0: WebGL warning: texImage: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
 JavaScript warning: , line 0: After reporting 32, no further warnings will be reported for this WebGL context.
 JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v4iQ0M4/yu/l/es_LA-j/TcqUHXm_juY.js, line 43: WebGL context was lost.
+JavaScript error: chrome://global/content/elements/browser-custom-element.js, line 1677: Error: permitUnload is already running for this tab.
