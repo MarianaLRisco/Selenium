@@ -6,5 +6,8 @@ prompt_learnerv1/
 *.pkl
 *.pkl
 *.csv
+*.tsv
+*.jpeg
+*.zip
 *.jpg
 *.png
