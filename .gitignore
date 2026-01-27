@@ -1,6 +1,7 @@
 data/
 dataset/
-datasetDisaster/
+datasetDisaster/test.pkl
+datasetDisaster/train.pkl
 prompt_learner_seed1/
 prompt_learnerv1/
 *.pkl
