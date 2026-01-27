@@ -10,6 +10,7 @@
     "settings": {
       "terminal.integrated.shell.linux": "/bin/bash"
     },
+    "mounts": ["source=/home/mariana/Datasets,target=${containerWorkspaceFolder}/data,type=bind,consistency=cached"],
     "extensions": [
       "ms-python.python",
       "ms-toolsai.jupyter"

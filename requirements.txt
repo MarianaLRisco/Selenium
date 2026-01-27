@@ -1,5 +1,21 @@
 pandas
 numpy
-selenium
+selenium==4.6
 requests
-
+yt-dlp
+openpyxl
+scikit-learn
+# =========================
+# NLP
+# =========================
+nltk
+spacy
+beautifulsoup4
+transformers
+sentencepiece
+scipy
+# =========================
+# Visualization
+# =========================
+matplotlib
+seaborn
