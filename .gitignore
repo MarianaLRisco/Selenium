@@ -4,7 +4,6 @@ datasetDisaster/
 prompt_learner_seed1/
 prompt_learnerv1/
 *.pkl
-*.pkl
 *.csv
 *.tsv
 *.jpeg
